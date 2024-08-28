@@ -1,10 +1,10 @@
 // next-sitemap.config.ts
-import { NextSitemapConfig } from 'next-sitemap';
 
-const config: NextSitemapConfig = {
+/** @type {import('next-sitemap').IConfig} */
+const config = {
   siteUrl: 'https://www.example.com', // Replace with your site's URL
-  generateRobotsTxt: true, // (Optional) Generate a robots.txt file
-  // Optional: Add other options here
+  generateRobotsTxt: true, // (optional) Generate robots.txt file
+  // Additional options can be added here
 };
 
 export default config;
